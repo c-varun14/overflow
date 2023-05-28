@@ -1,0 +1,39 @@
+.sign {
+  width: 25rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  min-height: 50vh;
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.7);
+}
+.sign input[type="radio"] {
+  margin-right: 0.5rem;
+  display: inline;
+}
+.fieldset {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+.input {
+  width: 23rem;
+  margin: 1rem 1rem 1rem 0;
+  border-bottom: 1px var(--main-text-color) solid;
+}
+.btn {
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.submitBtn {
+  color: #fff;
+  background-color: var(--nav);
+  width: 23rem;
+}
+.errorMessage {
+  color: var(--error);
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}

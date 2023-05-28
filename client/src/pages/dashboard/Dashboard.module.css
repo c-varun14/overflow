@@ -1,0 +1,28 @@
+.dashboard {
+  flex-direction: column;
+  width: calc(100% - 15rem);
+}
+.table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 60vw;
+  margin: 0 auto;
+}
+.table td,
+.table th {
+  border: 1px solid #000;
+  text-align: left;
+  padding: 8px;
+}
+
+.btn {
+  width: 20rem;
+  background-color: white;
+  height: 3rem;
+  margin: 1rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+}
